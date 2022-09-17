@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T05:58:29.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lwla7pBZWBtA3SVMU1xU" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T06:01:03.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wvoMlIf8Da4BTxkS6LxB" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3752" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4279" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,6 +184,18 @@
             <mxPoint x="392.00000000000045" y="1120.4499999999998" as="targetPoint" />
             <mxPoint x="740.8500000000008" y="1120" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-79" value="15.. 이체 내역 메뉴 접속" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-1" target="CvV1-d97VzqDH3h47T7x-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-327" y="1250" as="sourcePoint" />
+            <mxPoint x="747" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-81" value="이체내역조회" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="80" width="100" height="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-82" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-81">
+          <mxGeometry x="45" y="1170" width="10" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
