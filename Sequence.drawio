@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T05:46:27.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rKQqbl5wV54iiE_L1g5-" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T05:55:24.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8vjrC3_85zTzW2uqCU3X" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="3069" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,19 +158,25 @@
             <mxPoint x="935.6800000000003" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-73" value="11. 정상반영여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.009;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.036;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-67" target="CvV1-d97VzqDH3h47T7x-65">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-73" value="11. 요청정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.009;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.036;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-67" target="CvV1-d97VzqDH3h47T7x-65">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="760" y="900" as="targetPoint" />
             <mxPoint x="925" y="898.82" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-74" value="유저" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-74" value="유저(수신자)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="1240" y="80" width="100" height="1760" as="geometry" />
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-75" value="5.이체금액 입력" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.4;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-74">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-75" value="13. 이체요청정보 메시지 발송" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.071;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-69" target="CvV1-d97VzqDH3h47T7x-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="52" y="330" as="sourcePoint" />
-            <mxPoint x="228" y="330" as="targetPoint" />
+            <mxPoint x="1360" y="1030" as="sourcePoint" />
+            <mxPoint x="1536" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-76" value="13. 발송정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.008;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.123;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-69" target="CvV1-d97VzqDH3h47T7x-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="1011" as="targetPoint" />
+            <mxPoint x="1099.73" y="1010.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
