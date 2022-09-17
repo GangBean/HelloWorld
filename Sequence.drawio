@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T05:10:48.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OcJqyy7OkbP_Kl_iYIp4" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T05:12:41.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="y_g4qQwJlZdxtXnPBtvp" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2736" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="친구목록조회" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="80" width="100" height="610" as="geometry" />
+          <mxGeometry x="-200" y="80" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="친구목록DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="80" width="100" height="610" as="geometry" />
+          <mxGeometry x="-20" y="80" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="140" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="3.친구목록정보" style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.53;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="3.친구목록정보" style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.2;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.4;entryY=0.681;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-45" y="236" as="targetPoint" />
-            <mxPoint x="10" y="310" as="sourcePoint" />
+            <mxPoint x="-140" y="258" as="targetPoint" />
+            <mxPoint x="23" y="258" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="2.유저ID" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-1" value="유저" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="80" width="100" height="610" as="geometry" />
+          <mxGeometry x="-380" y="80" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-10" value="5.이체금액 입력" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.4;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-1" target="CvV1-d97VzqDH3h47T7x-8">
           <mxGeometry relative="1" as="geometry">
@@ -99,7 +99,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-55" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-372" y="340" width="1040" height="290" as="geometry" />
+          <mxGeometry x="-367" y="338" width="1040" height="290" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-53" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-55">
           <mxGeometry width="1040.0000000000002" height="290" as="geometry" />
