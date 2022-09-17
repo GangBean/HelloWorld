@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T05:55:24.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8vjrC3_85zTzW2uqCU3X" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T05:56:51.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sf30c9WPwRXg_5vPsyh8" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="3069" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -177,6 +177,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="1011" as="targetPoint" />
             <mxPoint x="1099.73" y="1010.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-77" value="14. 이체요청 완료 메시지 출력 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-65" target="CvV1-d97VzqDH3h47T7x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392.00000000000045" y="1120.4499999999998" as="targetPoint" />
+            <mxPoint x="740.8500000000008" y="1120" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
