@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T04:06:53.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lW6eguddktikeBwPmwu7" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T04:07:20.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="km1RFlfyHTevXpHvYj8d" version="20.3.2" type="github">
   <diagram id="fa3uKgDcAQ5vD3YcXZxg" name="페이지-1">
     <mxGraphModel dx="2713" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-21" value="해지일시 VARCHAR2(8)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="uAIWlrGeU-sTlZR1kj93-19">
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-21" value="해지일자 VARCHAR2(8)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="uAIWlrGeU-sTlZR1kj93-19">
           <mxGeometry x="30" width="260" height="30" as="geometry">
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
