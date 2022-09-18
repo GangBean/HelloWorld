@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T13:06:28.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BHVYjQEZ9QKLuJPflukI" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T13:08:17.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tTyo068pjHylaXK-T9pN" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="4843" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -245,13 +245,13 @@
         <mxCell id="CvV1-d97VzqDH3h47T7x-93" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-92">
           <mxGeometry x="45" y="970" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-126" value="13-8. 수신계좌입금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.038;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-92">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-126" value="13-12. 수신계좌입금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.038;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-92">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-119.6200000000008" y="1599.58" as="sourcePoint" />
             <mxPoint x="401.99999999999955" y="1598" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-127" value="13-9. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-92">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-127" value="13-13. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-92">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="1649.54" as="targetPoint" />
             <mxPoint x="400.7199999999998" y="1648" as="sourcePoint" />
@@ -274,8 +274,8 @@
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-105" value="13-3. 유효계좌정보 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;exitX=-0.15;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="780.0000000000005" y="1538.2299999999998" as="targetPoint" />
-            <mxPoint x="943.3600000000001" y="1538.0000000000002" as="sourcePoint" />
+            <mxPoint x="780.0000000000005" y="1719.2299999999998" as="targetPoint" />
+            <mxPoint x="943.3600000000001" y="1719.0000000000002" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-106" value="이체내역DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
@@ -305,13 +305,13 @@
             <mxPoint x="1123.36" y="1145.0000000000002" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-115" value="13-6. 송신계좌출금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-115" value="13-8. 송신계좌출금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="959.9999999999993" y="1339.26" as="sourcePoint" />
             <mxPoint x="1480" y="1339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-117" value="13-7. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-111">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-117" value="13-9. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-111">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="960" y="1400.54" as="targetPoint" />
             <mxPoint x="1305.0200000000004" y="1399" as="sourcePoint" />
@@ -335,13 +335,13 @@
         <mxCell id="CvV1-d97VzqDH3h47T7x-140" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1645" y="1558" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-141" value="13-6. 송신계좌출금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-141" value="13-10. 송신계좌출금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1480.999999999999" y="1558.2600000000002" as="sourcePoint" />
             <mxPoint x="1640" y="1558" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-142" value="13-7. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-140">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-142" value="13-11. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-140">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1481" y="1619.54" as="targetPoint" />
             <mxPoint x="1306.0200000000004" y="1538" as="sourcePoint" />
