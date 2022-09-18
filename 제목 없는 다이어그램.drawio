@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T08:31:38.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ud-waKXFVZrbpuIqzzMT" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T08:39:24.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3X66HvrO2qa3O31MCkkg" version="20.3.2" type="github">
   <diagram id="fa3uKgDcAQ5vD3YcXZxg" name="페이지-1">
-    <mxGraphModel dx="2500" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="2091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,11 +165,11 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;strokeColor=#000000;" parent="1" source="uAIWlrGeU-sTlZR1kj93-45" target="uAIWlrGeU-sTlZR1kj93-29" edge="1">
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;strokeColor=#000000;dashed=1;" parent="1" source="uAIWlrGeU-sTlZR1kj93-45" target="uAIWlrGeU-sTlZR1kj93-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-25" value="이체내역" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-500" y="50" width="340" height="240" as="geometry" />
+          <mxGeometry x="-400" y="-80" width="340" height="240" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-26" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" parent="uAIWlrGeU-sTlZR1kj93-25" vertex="1">
           <mxGeometry y="30" width="340" height="30" as="geometry" />
@@ -184,21 +184,8 @@
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-29" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" parent="uAIWlrGeU-sTlZR1kj93-25" vertex="1">
-          <mxGeometry y="60" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-30" value="PK, FK2" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-29" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-31" value="수금유저ID NUMBER(19) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;flipH=0;flipV=1;" parent="uAIWlrGeU-sTlZR1kj93-29" vertex="1">
-          <mxGeometry x="60" width="280" height="30" as="geometry">
-            <mxRectangle width="280" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-32" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" parent="uAIWlrGeU-sTlZR1kj93-25" vertex="1">
-          <mxGeometry y="90" width="340" height="30" as="geometry" />
+          <mxGeometry y="60" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-33" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-32" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -211,7 +198,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-25" vertex="1">
-          <mxGeometry y="120" width="340" height="30" as="geometry" />
+          <mxGeometry y="90" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-36" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-35" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -219,6 +206,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-37" value="요청시간 CHAR(8) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-35" vertex="1">
+          <mxGeometry x="60" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-29" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" parent="uAIWlrGeU-sTlZR1kj93-25" vertex="1">
+          <mxGeometry y="120" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-30" value="FK2" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-29" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-31" value="수금유저ID NUMBER(19) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;flipH=0;flipV=1;" parent="uAIWlrGeU-sTlZR1kj93-29" vertex="1">
           <mxGeometry x="60" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -330,22 +330,17 @@
             <mxRectangle width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-103" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-4" target="uAIWlrGeU-sTlZR1kj93-79" edge="1">
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-103" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-131" target="uAIWlrGeU-sTlZR1kj93-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-4" target="uAIWlrGeU-sTlZR1kj93-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-630" y="375" />
-              <mxPoint x="-630" y="95" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-4" target="uAIWlrGeU-sTlZR1kj93-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-114" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToOne;endFill=0;rounded=1;strokeColor=none;" parent="1" source="uAIWlrGeU-sTlZR1kj93-107" target="uAIWlrGeU-sTlZR1kj93-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-107" value="이체상태구분" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="70" width="250" height="90" as="geometry" />
+          <mxGeometry x="-90" y="-260" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-108" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-107" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -376,19 +371,13 @@
         <mxCell id="uAIWlrGeU-sTlZR1kj93-115" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToOne;endFill=0;strokeColor=none;" parent="1" source="uAIWlrGeU-sTlZR1kj93-108" target="uAIWlrGeU-sTlZR1kj93-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-116" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;rounded=1;dashed=1;" parent="1" source="uAIWlrGeU-sTlZR1kj93-108" target="uAIWlrGeU-sTlZR1kj93-38" edge="1">
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-116" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;rounded=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-108" target="uAIWlrGeU-sTlZR1kj93-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAIWlrGeU-sTlZR1kj93-125" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;dashed=1;" parent="1" source="uAIWlrGeU-sTlZR1kj93-4" target="uAIWlrGeU-sTlZR1kj93-121" edge="1">
+        <mxCell id="uAIWlrGeU-sTlZR1kj93-125" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.473;entryY=0.989;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;dashed=1;entryPerimeter=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-3" target="uAIWlrGeU-sTlZR1kj93-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-360" y="440" as="sourcePoint" />
             <mxPoint x="-690" y="160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-330" y="375" />
-              <mxPoint x="-330" y="320" />
-              <mxPoint x="-560" y="320" />
-              <mxPoint x="-560" y="245" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-126" value="[ORACLE]&lt;br&gt;&lt;br&gt;※ 이체상태구분의 코드값 별 상태명&lt;br&gt;&amp;nbsp;- 0 : 처리중&lt;br&gt;&amp;nbsp;- 1 : 이체완료&lt;br&gt;&amp;nbsp;- 2 : 오류&lt;br&gt;&amp;nbsp;- 3 : 자동취소&lt;br&gt;=&amp;gt; 설계상 오류와 자동취소시 처리결과가 동일해, 이체오류건수에 자동취소건수를 포함시켰습니다.&lt;br&gt;&lt;br&gt;WITH (SELECT SUBSTR(A.요청일자, 1,6) AS REQ_DATE&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, A.이체상태코드 AS SCD&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, COUNT(*) AS CNT&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;FROM 이체내역 A&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;WHERE SUBSTR(A.요청일자, 1, 6) BETWEEN &#39;202101&#39; AND &#39;202103&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;GROUP BY SUBSTR(A.요청일자,1,6), A.이체상태코드)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AS TMP_CNT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SELECT CATEGORY&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , SUCCESS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , ERROR&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , IN_PROGRESS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; FROM (SELECT &#39;&#39; AS &#39;CATEGORY&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &#39;이체완료건수&#39; AS &#39;SUCCESS&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &#39;이체오류건수&#39; AS &#39;ERROR&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &#39;처리중건수&#39; AS &#39;LOADING&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , 0 AS RN&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;FROM DUAL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;UNION ALL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SELECT SUBSTR(REQ_DATE, 1,4) || &#39;.&#39; || SUBSTR(REQ_DATE, 5,2) AS &#39;CATEGORY&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , TO_CHAR((SELECT CNT FROM TMP_CNT Z WHERE X.REQ_DATE = Z.REQ_DATE AND Z.SCD = &#39;1&#39;)) AS &#39;SUCCESS&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , TO_CHAR((SELECT CNT FROM TMP_CNT Z WHERE X.REQ_DATE = Z.REQ_DATE AND Z.SCD IN( &#39;2&#39;,&#39;3&#39;))) AS &#39;ERROR&#39;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , TO_CHAR((SELECT CNT FROM TMP_CNT Z WHERE X.REQ_DATE = Z.REQ_DATE AND Z.SCD = &#39;0&#39;)) AS &#39;IN_PROGRESS&#39;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , RANK() OVER(ORDER BY REQ_DATE ASC) AS RN&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;FROM TMP_CNT X&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UNION ALL&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SELECT &#39;합계&#39; AS &#39;CATEGORY&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , TO_CHAR((SELECT SUM(CNT) FROM TMP_CNT WHERE SCD = &#39;1&#39;)) AS &#39;SUCCESS&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , TO_CHAR((SELECT SUM(CNT) FROM TMP_CNT WHERE SCD IN( &#39;2&#39;,&#39;3&#39;))) AS &#39;ERROR&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , TO_CHAR((SELECT SUM(CNT) FROM TMP_CNT WHERE SCD = &#39;0&#39;)) AS &#39;&lt;/span&gt;IN_PROGRESS&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &#39;4&#39; AS RN&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;FROM TMP_CNT X&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ORDER BY RN ASC&lt;/div&gt;&lt;div style=&quot;&quot;&gt;;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=0;align=left;" parent="1" vertex="1">
