@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T13:09:33.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Ogi3y5xFewA_o3FoRInJ" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T13:46:19.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XsxbYj56W_7eznBJ_R0c" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="4843" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4394" dy="1336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,21 +110,6 @@
             <mxPoint x="1410" y="1460" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-98" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2030" y="1040" width="314" height="99" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-99" value="opt" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-98">
-          <mxGeometry width="57.8421052631579" height="21.21428571428572" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-100" value="" style="group" vertex="1" connectable="0" parent="CvV1-d97VzqDH3h47T7x-98">
-          <mxGeometry width="314.00000000000006" height="99.00000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-101" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-100">
-          <mxGeometry width="314.00000000000006" height="99.00000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-102" value="[유효계좌정보존재]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-100">
-          <mxGeometry x="-5" y="20.114285714285717" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-56" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-1100" y="130" width="314" height="99" as="geometry" />
         </mxCell>
@@ -141,7 +126,7 @@
           <mxGeometry y="20.114285714285717" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-135" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="520" y="80" width="1537" height="2440" as="geometry" />
+          <mxGeometry x="520" y="80" width="2030" height="2680" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-64" value="이체요청" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry width="100" height="2440" as="geometry" />
@@ -162,7 +147,7 @@
           <mxGeometry x="360" width="100" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-69" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-68">
-          <mxGeometry x="45" y="860" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="860" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-71" value="10. 이체요청정보(계좌ID, 수신자ID,요청일자, 요청일시, 금액) " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.031;exitY=0.172;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.068;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-65" target="CvV1-d97VzqDH3h47T7x-67">
           <mxGeometry relative="1" as="geometry">
@@ -183,18 +168,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-74" value="유저(수신자)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="720" width="100" height="2430" as="geometry" />
+          <mxGeometry x="898" width="100" height="2430" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-88" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-74">
-          <mxGeometry x="45" y="880" width="10" height="940" as="geometry" />
+          <mxGeometry x="45" y="940" width="10" height="830" as="geometry" />
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-75" value="13. 이체요청정보 메시지 발송" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.071;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" target="CvV1-d97VzqDH3h47T7x-88">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="415.71000000000004" y="880.45" as="sourcePoint" />
-            <mxPoint x="589.5" y="880.45" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-76" value="13. 발송정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.008;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.123;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-69" target="CvV1-d97VzqDH3h47T7x-65">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-76" value="13. 발송정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.008;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.012;entryY=0.939;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-69" target="CvV1-d97VzqDH3h47T7x-65">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="931" as="targetPoint" />
             <mxPoint x="399.73" y="930.0000000000001" as="sourcePoint" />
@@ -219,7 +198,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-89" value="이체확정" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="900" width="100" height="2440" as="geometry" />
+          <mxGeometry x="1078" width="124.00000000000006" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-90" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-89">
           <mxGeometry x="45" y="960" width="10" height="790" as="geometry" />
@@ -235,12 +214,12 @@
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-91" value="13-1. 받기 버튼 클릭 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.071;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="775.3499999999999" y="959.9999999999998" as="sourcePoint" />
-            <mxPoint x="940" y="960" as="targetPoint" />
+            <mxPoint x="953.3499999999999" y="959.9999999999998" as="sourcePoint" />
+            <mxPoint x="1118" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-92" value="계좌DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="1080" width="100" height="2440" as="geometry" />
+          <mxGeometry x="1258" width="100" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-93" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-92">
           <mxGeometry x="45" y="970" width="10" height="70" as="geometry" />
@@ -259,39 +238,39 @@
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-95" value="13-2. 유저ID" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.071;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" target="CvV1-d97VzqDH3h47T7x-93">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="979.9999999999998" as="sourcePoint" />
-            <mxPoint x="1130.29" y="980.1600000000001" as="targetPoint" />
+            <mxPoint x="1138" y="979.9999999999998" as="sourcePoint" />
+            <mxPoint x="1308.29" y="980.1600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-96" value="13-3. 유효계좌정보 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;exitX=-0.15;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-93" target="CvV1-d97VzqDH3h47T7x-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="1040" as="targetPoint" />
-            <mxPoint x="1325" y="1050.21" as="sourcePoint" />
+            <mxPoint x="1138" y="1040" as="targetPoint" />
+            <mxPoint x="1503" y="1050.21" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-103" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="950" y="1087" width="10" height="80" as="geometry" />
+          <mxGeometry x="1128" y="1087" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-105" value="13-3. 유효계좌정보 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;exitX=-0.15;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-105" value="13-14. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;exitX=-0.15;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="780.0000000000005" y="1719.2299999999998" as="targetPoint" />
-            <mxPoint x="943.3600000000001" y="1719.0000000000002" as="sourcePoint" />
+            <mxPoint x="958.0000000000005" y="1750.2299999999998" as="targetPoint" />
+            <mxPoint x="1121.3600000000001" y="1750.0000000000002" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-106" value="이체내역DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="1260" width="100" height="2440" as="geometry" />
+          <mxGeometry x="1438" width="100" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-108" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-106">
           <mxGeometry x="45" y="1094" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-109" value="13-4. 이체요청정보, 수신계좌정보" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.133;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" target="CvV1-d97VzqDH3h47T7x-108">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960.4899999999998" y="1095.52" as="sourcePoint" />
-            <mxPoint x="1124.9999999999995" y="1095.0099999999998" as="targetPoint" />
+            <mxPoint x="1138.4899999999998" y="1095.52" as="sourcePoint" />
+            <mxPoint x="1302.9999999999995" y="1095.0099999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-110" value="계좌변동내역DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="1437" width="100" height="2440" as="geometry" />
+          <mxGeometry x="1615" width="100" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-111" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-110">
           <mxGeometry x="45" y="1339" width="10" height="60" as="geometry" />
@@ -301,51 +280,90 @@
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-112" value="13-5. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.2;entryY=0.792;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-108" target="CvV1-d97VzqDH3h47T7x-103">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960.0000000000002" y="1145.23" as="targetPoint" />
-            <mxPoint x="1123.36" y="1145.0000000000002" as="sourcePoint" />
+            <mxPoint x="1138.0000000000002" y="1145.23" as="targetPoint" />
+            <mxPoint x="1301.36" y="1145.0000000000002" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-115" value="13-8. 송신계좌출금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="959.9999999999993" y="1339.26" as="sourcePoint" />
-            <mxPoint x="1480" y="1339" as="targetPoint" />
+            <mxPoint x="1137.9999999999993" y="1339.26" as="sourcePoint" />
+            <mxPoint x="1658" y="1339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-117" value="13-9. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-111">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="1400.54" as="targetPoint" />
-            <mxPoint x="1305.0200000000004" y="1399" as="sourcePoint" />
+            <mxPoint x="1138" y="1400.54" as="targetPoint" />
+            <mxPoint x="1483.0200000000004" y="1399" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-144" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="943" y="1850" width="10" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-147" value="메시지&#xa;전송내역DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="718.5" width="100" height="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-148" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-147">
+          <mxGeometry x="45" y="990" width="10" height="804" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-75" value="13. 이체요청정보 메시지 발송" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.071;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.71000000000004" y="939.45" as="sourcePoint" />
+            <mxPoint x="943" y="939.8899999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-150" value="14. 메시지 전송 이력" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.539;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-68" target="CvV1-d97VzqDH3h47T7x-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.71000000000004" y="877.9999999999998" as="sourcePoint" />
+            <mxPoint x="943" y="878.4399999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-152" value="14-1. 정상적재여부" style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.044;entryY=0.954;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.15;exitY=0.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-148" target="CvV1-d97VzqDH3h47T7x-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1013" as="targetPoint" />
+            <mxPoint x="760" y="1013" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-137" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1645" y="1292" width="10" height="60" as="geometry" />
+          <mxGeometry x="1823" y="1292" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-138" value="13-6. 송신계좌출금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480.999999999999" y="1292.2600000000002" as="sourcePoint" />
-            <mxPoint x="1640" y="1292" as="targetPoint" />
+            <mxPoint x="1658.999999999999" y="1292.2600000000002" as="sourcePoint" />
+            <mxPoint x="1818" y="1292" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-139" value="13-7. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-137">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1481" y="1353.54" as="targetPoint" />
-            <mxPoint x="1306.0200000000004" y="1272" as="sourcePoint" />
+            <mxPoint x="1659" y="1353.54" as="targetPoint" />
+            <mxPoint x="1484.0200000000004" y="1272" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-140" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1645" y="1558" width="10" height="60" as="geometry" />
+          <mxGeometry x="1823" y="1558" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-141" value="13-10. 송신계좌출금정보 " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.049;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1480.999999999999" y="1558.2600000000002" as="sourcePoint" />
-            <mxPoint x="1640" y="1558" as="targetPoint" />
+            <mxPoint x="1658.999999999999" y="1558.2600000000002" as="sourcePoint" />
+            <mxPoint x="1818" y="1558" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-142" value="13-11. 반영정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.014;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.128;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CvV1-d97VzqDH3h47T7x-140">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1481" y="1619.54" as="targetPoint" />
-            <mxPoint x="1306.0200000000004" y="1538" as="sourcePoint" />
+            <mxPoint x="1659" y="1619.54" as="targetPoint" />
+            <mxPoint x="1484.0200000000004" y="1538" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-154" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2560" y="1670" width="314" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-99" value="opt" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-154">
+          <mxGeometry width="57.8421052631579" height="21.21428571428572" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-101" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-154">
+          <mxGeometry width="314.00000000000006" height="99.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-102" value="[발송 23시간 후]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-154">
+          <mxGeometry y="20.114285714285643" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
