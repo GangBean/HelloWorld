@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T13:51:29.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XH-F6Ei0a45GAh3gOjTU" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T14:43:50.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="s3s7Tyjt95F1sJbIxNAS" version="20.3.2" type="github">
   <diagram id="fa3uKgDcAQ5vD3YcXZxg" name="페이지-1">
     <mxGraphModel dx="3873" dy="2269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -448,7 +448,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E3G5LAypenUl-yA3ZJrd-16" value="메시지 전송 내역" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="-260" width="300" height="90" as="geometry" />
+          <mxGeometry x="-820" y="-260" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="E3G5LAypenUl-yA3ZJrd-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-16">
           <mxGeometry y="30" width="300" height="30" as="geometry" />
@@ -466,12 +466,25 @@
         <mxCell id="E3G5LAypenUl-yA3ZJrd-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-16">
           <mxGeometry y="60" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-20">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-21" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-20">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-22" value="발송상태코드 VARCHAR2(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-20">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-22" value="상태코드 CHAR(1) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-20">
+          <mxGeometry x="30" width="270" height="30" as="geometry">
+            <mxRectangle width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-16">
+          <mxGeometry y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-36" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-35">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-37" value="메시지내용 VARCHAR2(200) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-35">
           <mxGeometry x="30" width="270" height="30" as="geometry">
             <mxRectangle width="270" height="30" as="alternateBounds" />
           </mxGeometry>
