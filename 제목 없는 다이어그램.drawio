@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T15:06:45.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tMcEHrglfuhT7_XAbXck" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T22:47:53.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pEJU3Gi5L07UAyHe_8rd" version="20.3.3" type="github">
   <diagram id="fa3uKgDcAQ5vD3YcXZxg" name="페이지-1">
-    <mxGraphModel dx="4348" dy="2505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3151" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,7 +136,7 @@
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.499;exitY=1.033;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;dashed=1;exitPerimeter=0;entryX=0.519;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="uAIWlrGeU-sTlZR1kj93-48" target="E3G5LAypenUl-yA3ZJrd-5">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.499;exitY=1.033;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;dashed=1;exitPerimeter=0;entryX=0.519;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-48" target="E3G5LAypenUl-yA3ZJrd-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uAIWlrGeU-sTlZR1kj93-44" value="유저" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="1" vertex="1">
@@ -265,15 +265,15 @@
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-23" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="uAIWlrGeU-sTlZR1kj93-25">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-23" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="uAIWlrGeU-sTlZR1kj93-25" vertex="1">
           <mxGeometry y="240" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-24" value="FK5" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-23">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-24" value="FK5" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-23" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-25" value="메시지ID CHAR(1) NOT NULL DEFAULT &#39;0&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-23">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-25" value="메시지ID CHAR(1) NOT NULL DEFAULT &#39;0&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-23" vertex="1">
           <mxGeometry x="60" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -402,139 +402,139 @@
         <mxCell id="uAIWlrGeU-sTlZR1kj93-127" value="1. 유저 테이블 : 각 사용자별 정보를 담고 있는 테이블&lt;br&gt;- 과제 내 프로세스 상 필요한 최소한의 정보만 표현 했습니다. 유저명은 친구목록 조회시 별명이 없을경우 출력되는 기본값으로 필요하다고 판단해 남겨두었습니다.&lt;br&gt;&lt;br&gt;2. 계좌 테이블 : 유저가 개설한 계좌정보를 담고 있는 테이블&lt;br&gt;- 금액 필드는 잔액, 홀드금액, 사용가능액 3가지로 구분했습니다.&lt;br&gt;- (사용가능액 = 잔액 - 홀드금액) 으로, 홀드금액은 해당계좌에 해당하는 이체요청내역중 처리중(0) 상태 요청건의 합계금액입니다.&lt;br&gt;- 과제 내 요구사항엔 명시되어 있지 않습니다만, 고객이 계좌해지를 한 이후에 이체요청을 하는 경우를 가정해, 해지일자 정보를 출금/입금 가능 계좌를 판단하는 기준으로 사용했습니다.&lt;br&gt;- 계좌명은 유저가 설정한 값으로, 출금계좌 선택화면 내 계좌식별을 용이하게 하기 위한 정보입니다. 계좌명은 NULLABLE로 유저가 선택적으로 설정가능하도록 설계했습니다. 계좌명이 없는경우 계좌식별 정보는 계좌번호를 출력하는 것으로 가정했습니다.&lt;br&gt;&lt;br&gt;3. 계좌변동내역 테이블 : 계좌별로 입금/출금이 발생한 이력을 적재한 테이블&lt;br&gt;&lt;br&gt;4. 이체내역 테이블 : 출금 요청한 계좌, 수금유저, 요청일시, 금액, 상태 를 적재한 테이블&lt;br&gt;- 이체시 선택한 계좌 + 입금받을 친구의 ID + 요청일시 를 기본키로 설정했습니다.&lt;br&gt;- 이체 요청시 수신계좌는 NULL, 상태코드는 0(처리중)으로 적재합니다.&lt;br&gt;- 이후 수신자의 받기요청시 처리결과에 따라 수신계좌정보와 상태코드가 업데이트 됩니다.&lt;br&gt;- 받기요청이 정상 처리되었을 경우, 입금된 계좌ID와 상태코드 1(이체완료) 로 업데이트 합니다.&lt;br&gt;- 받기요청이 비정상 처리되었을 경우(수신자의 계좌가 비정상, 출금요청한 계좌의 잔액이 부족), 상태코드 2(오류)로 업데이트 합니다.&lt;br&gt;- 간편이체 자동취소시엔 상태코드를 3(자동취소)으로 업데이트합니다.&lt;br&gt;&lt;br&gt;5. 이체상태구분 테이블 : 요청된 이체내역의 상태를 코드화한 테이블&lt;br&gt;- 프로세스상 대량 데이터 발생이 예상되는 이체내역 테이블의 데이터 저장용량 절감을 위해 상태정보를 구분한 코드를 매핑시킨 테이블입니다.&lt;br&gt;- 코드값 : 상태명 정보 -&amp;gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;0 : 처리중&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;1 : 이체완료&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;2 : 오류&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;3 : 자동취소" style="whiteSpace=wrap;html=1;strokeWidth=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="-780" y="720" width="690" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-1" value="친구목록" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="1">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-1" value="친구목록" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1160" y="450" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-1">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" parent="E3G5LAypenUl-yA3ZJrd-1" vertex="1">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-3" value="PK, FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-2">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-3" value="PK, FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-2" vertex="1">
           <mxGeometry width="60.000000000000455" height="30" as="geometry">
             <mxRectangle width="60.000000000000455" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-4" value="유저ID NUMBER(19) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-2">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-4" value="유저ID NUMBER(19) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-2" vertex="1">
           <mxGeometry x="60.000000000000455" width="229.99999999999955" height="30" as="geometry">
             <mxRectangle width="229.99999999999955" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-11" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-1">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-11" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-1" vertex="1">
           <mxGeometry y="60" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-12" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-11">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-12" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-11" vertex="1">
           <mxGeometry width="60.000000000000455" height="30" as="geometry">
             <mxRectangle width="60.000000000000455" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-13" value="순번 NUMBER(19) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-11">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-13" value="순번 NUMBER(19) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-11" vertex="1">
           <mxGeometry x="60.000000000000455" width="229.99999999999955" height="30" as="geometry">
             <mxRectangle width="229.99999999999955" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-5" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-1">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-5" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-1" vertex="1">
           <mxGeometry y="90" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-6" value="FK2" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-5">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-6" value="FK2" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-5" vertex="1">
           <mxGeometry width="60.000000000000455" height="30" as="geometry">
             <mxRectangle width="60.000000000000455" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-7" value="친구ID VARCHAR2(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-5">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-7" value="친구ID VARCHAR2(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-5" vertex="1">
           <mxGeometry x="60.000000000000455" width="229.99999999999955" height="30" as="geometry">
             <mxRectangle width="229.99999999999955" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="uAIWlrGeU-sTlZR1kj93-45" target="E3G5LAypenUl-yA3ZJrd-1">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="uAIWlrGeU-sTlZR1kj93-45" target="E3G5LAypenUl-yA3ZJrd-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-16" value="메시지 전송 내역" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="1">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-16" value="메시지 전송 내역" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-820" y="-260" width="300" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-16">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;strokeWidth=0;" parent="E3G5LAypenUl-yA3ZJrd-16" vertex="1">
           <mxGeometry y="30" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-18" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-17">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-18" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-17" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-19" value="메시지ID CHAR(1) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-17">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-19" value="메시지ID NUMBER(19) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-17" vertex="1">
           <mxGeometry x="30" width="270" height="30" as="geometry">
             <mxRectangle width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-38" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-16">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-38" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-16" vertex="1">
           <mxGeometry y="60" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-39" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-38">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-39" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-38" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-40" value="전송일자 CHAR(1) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-38">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-40" value="전송일자 CHAR(8) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-38" vertex="1">
           <mxGeometry x="30" width="270" height="30" as="geometry">
             <mxRectangle width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-16">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-16" vertex="1">
           <mxGeometry y="90" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-21" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-20">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-21" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-20" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-22" value="상태코드 CHAR(1) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-20">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-22" value="상태코드 CHAR(1) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-20" vertex="1">
           <mxGeometry x="30" width="270" height="30" as="geometry">
             <mxRectangle width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-16">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-16" vertex="1">
           <mxGeometry y="120" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-36" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-35">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-36" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-35" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-37" value="메시지내용 VARCHAR2(200) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-35">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-37" value="메시지내용 VARCHAR2(200) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-35" vertex="1">
           <mxGeometry x="30" width="270" height="30" as="geometry">
             <mxRectangle width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="E3G5LAypenUl-yA3ZJrd-17" target="E3G5LAypenUl-yA3ZJrd-23">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="E3G5LAypenUl-yA3ZJrd-17" target="E3G5LAypenUl-yA3ZJrd-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-27" value="메시지상태구분" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="1">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-27" value="메시지상태구분" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-770" y="-460" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-28" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-27">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-28" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-27" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-29" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-28">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-29" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-28" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-30" value="상태코드 CHAR(1) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-28">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-30" value="상태코드 CHAR(1) NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-28" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-31" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-27">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-31" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-27" vertex="1">
           <mxGeometry y="60" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-32" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-31">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-32" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-31" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-33" value="상태명 VARCHAR2(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" vertex="1" parent="E3G5LAypenUl-yA3ZJrd-31">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-33" value="상태명 VARCHAR2(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#788AA3;fontColor=#46495D;rounded=1;" parent="E3G5LAypenUl-yA3ZJrd-31" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3G5LAypenUl-yA3ZJrd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="E3G5LAypenUl-yA3ZJrd-28" target="E3G5LAypenUl-yA3ZJrd-20">
+        <mxCell id="E3G5LAypenUl-yA3ZJrd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="E3G5LAypenUl-yA3ZJrd-28" target="E3G5LAypenUl-yA3ZJrd-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
