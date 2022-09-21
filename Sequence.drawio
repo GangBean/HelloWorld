@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T05:59:53.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zq9_Csck6GVZh4Eo5l6D" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T06:00:07.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KxhiwqaULpQlrS5oyexy" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2562" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -438,9 +438,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="1140" y="2444" width="10" height="26" as="geometry" />
+          <mxGeometry x="1140" y="2444" width="10" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-32" value="B-5. 자동취소메시지 전송요청" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=-0.187;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="2jdDPLGbn6Hf8-7H8EuZ-30">
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-32" value="B-5. 자동취소메시지 전송요청" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=-0.221;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="2jdDPLGbn6Hf8-7H8EuZ-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="960.9999999999991" y="2444" as="sourcePoint" />
             <mxPoint x="771" y="2444" as="targetPoint" />
