@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T06:00:07.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KxhiwqaULpQlrS5oyexy" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T06:00:32.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zAH--qol-Ur2CshlGZpP" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2562" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -456,6 +456,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="779" y="2490.0000000000005" as="targetPoint" />
             <mxPoint x="931" y="2490.82" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-37" value="B-8. 메시지 발송 정상여부" style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;exitX=1.076;exitY=0.542;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.082;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="2jdDPLGbn6Hf8-7H8EuZ-33" target="2jdDPLGbn6Hf8-7H8EuZ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789" y="2500.0000000000005" as="targetPoint" />
+            <mxPoint x="958.0999999999999" y="2500.6099999999997" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-137" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
