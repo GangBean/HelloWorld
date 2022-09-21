@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T13:05:23.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="bscO9t2JglTVVdtB-HAi" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T13:05:55.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0j64-Mk3lv2HL7cfMOJk" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2087" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2881" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,7 +117,7 @@
           <mxGeometry x="899" width="2030" height="2740" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-64" value="이체요청" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=default;" parent="CvV1-d97VzqDH3h47T7x-135" vertex="1">
-          <mxGeometry width="210" height="2440" as="geometry" />
+          <mxGeometry width="100" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-65" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="CvV1-d97VzqDH3h47T7x-64" vertex="1">
           <mxGeometry x="45" y="690" width="10" height="350" as="geometry" />
