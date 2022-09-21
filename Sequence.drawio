@@ -1,24 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T12:55:48.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="O87U_hHu3HIQ879fDp-Z" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T12:59:33.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="SqgN5gjSpoxS7lQusiqt" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3054" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2746" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CvV1-d97VzqDH3h47T7x-56" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-1100" y="130" width="314" height="99" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-58" value="opt" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=default;" parent="CvV1-d97VzqDH3h47T7x-56" vertex="1">
-          <mxGeometry width="57.8421052631579" height="21.21428571428572" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-61" value="" style="group" parent="CvV1-d97VzqDH3h47T7x-56" vertex="1" connectable="0">
-          <mxGeometry width="314.00000000000006" height="99.00000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-57" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;" parent="CvV1-d97VzqDH3h47T7x-61" vertex="1">
-          <mxGeometry width="314.00000000000006" height="99.00000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-60" value="[계좌정보 미존재]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" parent="CvV1-d97VzqDH3h47T7x-61" vertex="1">
-          <mxGeometry y="20.114285714285717" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-40" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-380" y="80" width="2929" height="2740" as="geometry" />
         </mxCell>
@@ -491,6 +476,48 @@
             <mxPoint x="61" y="700.1999999999998" as="sourcePoint" />
             <mxPoint x="231.3699999999999" y="700" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="998yXdrQcmCT62WCg0Dt-8" value="계좌잔액 캐시DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="91" y="230" width="100" height="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="998yXdrQcmCT62WCg0Dt-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="998yXdrQcmCT62WCg0Dt-8">
+          <mxGeometry x="45" y="510" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="998yXdrQcmCT62WCg0Dt-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="998yXdrQcmCT62WCg0Dt-8">
+          <mxGeometry x="45" y="1902" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="998yXdrQcmCT62WCg0Dt-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="51" y="743" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="998yXdrQcmCT62WCg0Dt-12" value="계좌ID" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=0.838;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="998yXdrQcmCT62WCg0Dt-13" target="998yXdrQcmCT62WCg0Dt-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="71" y="710.1999999999998" as="sourcePoint" />
+            <mxPoint x="-116.29999999999973" y="710.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="998yXdrQcmCT62WCg0Dt-14" value="정상" style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=1;entryX=1.314;entryY=0.824;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.909;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.14000000000033" y="782.2560000000001" as="targetPoint" />
+            <mxPoint x="136" y="782.9960000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="998yXdrQcmCT62WCg0Dt-15" value="" style="group" vertex="1" connectable="0" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="-59" y="730" width="229" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-56" value="" style="group" parent="998yXdrQcmCT62WCg0Dt-15" vertex="1" connectable="0">
+          <mxGeometry width="228.99999999999997" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-61" value="" style="group" parent="CvV1-d97VzqDH3h47T7x-56" vertex="1" connectable="0">
+          <mxGeometry width="229.00000000000003" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-57" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;" parent="CvV1-d97VzqDH3h47T7x-61" vertex="1">
+          <mxGeometry width="229.00000000000003" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-60" value="[계좌 lock 획득]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" parent="CvV1-d97VzqDH3h47T7x-61" vertex="1">
+          <mxGeometry x="3.646496815286624" y="12.19047619047619" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvV1-d97VzqDH3h47T7x-58" value="loop" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=default;" parent="998yXdrQcmCT62WCg0Dt-15" vertex="1">
+          <mxGeometry width="42.18421052631579" height="12.85714285714286" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-137" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="2jdDPLGbn6Hf8-7H8EuZ-40" vertex="1">
           <mxGeometry x="2203" y="1212" width="10" height="60" as="geometry" />
