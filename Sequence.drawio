@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T12:55:34.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9m9RX76NDWKLCQkl081q" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T12:55:48.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="O87U_hHu3HIQ879fDp-Z" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="3054" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -167,10 +167,11 @@
             <mxPoint x="235.6800000000003" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvV1-d97VzqDH3h47T7x-73" value="요청정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.009;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.036;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-67" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="CvV1-d97VzqDH3h47T7x-73" value="정상여부 " style="verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.009;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.036;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" parent="CvV1-d97VzqDH3h47T7x-135" source="CvV1-d97VzqDH3h47T7x-67" edge="1">
+          <mxGeometry x="-0.0012" relative="1" as="geometry">
             <mxPoint x="55.36000000000013" y="893.55" as="targetPoint" />
             <mxPoint x="225" y="891.82" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-74" value="유저(수신자)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=default;" parent="CvV1-d97VzqDH3h47T7x-135" vertex="1">
