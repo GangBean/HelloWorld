@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T05:56:33.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hpgpwRgewDgoM-Lf6PRH" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T05:59:07.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="g2oqezBpfkhUc31swZiN" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2617" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2562" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +126,7 @@
           <mxGeometry y="20.114285714285717" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-135" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="519" y="80" width="2030" height="2680" as="geometry" />
+          <mxGeometry x="519" y="80" width="2030" height="2740" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-64" value="이체요청" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=default;" parent="CvV1-d97VzqDH3h47T7x-135" vertex="1">
           <mxGeometry width="100" height="2440" as="geometry" />
@@ -168,7 +168,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-74" value="유저(수신자)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=default;" parent="CvV1-d97VzqDH3h47T7x-135" vertex="1">
-          <mxGeometry x="898" width="100" height="2430" as="geometry" />
+          <mxGeometry x="898" width="100" height="2630" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-88" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="CvV1-d97VzqDH3h47T7x-74" vertex="1">
           <mxGeometry x="45" y="940" width="10" height="830" as="geometry" />
@@ -219,7 +219,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-92" value="계좌DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=default;" parent="CvV1-d97VzqDH3h47T7x-135" vertex="1">
-          <mxGeometry x="1258" width="100" height="2440" as="geometry" />
+          <mxGeometry x="1258" width="100" height="2640" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-93" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="CvV1-d97VzqDH3h47T7x-92" vertex="1">
           <mxGeometry x="45" y="970" width="10" height="70" as="geometry" />
@@ -297,7 +297,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-147" value="메시지&#xa;전송내역DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=default;" parent="CvV1-d97VzqDH3h47T7x-135" vertex="1">
-          <mxGeometry x="718.5" width="100" height="2440" as="geometry" />
+          <mxGeometry x="718.5" width="100" height="2740" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-148" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="CvV1-d97VzqDH3h47T7x-147" vertex="1">
           <mxGeometry x="45" y="990" width="10" height="20" as="geometry" />
@@ -437,6 +437,21 @@
             <mxPoint x="792" y="2311" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="1140" y="2444" width="10" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-32" value="B-5. 자동취소메시지 전송요청" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=-0.187;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="CvV1-d97VzqDH3h47T7x-135" source="2jdDPLGbn6Hf8-7H8EuZ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960.9999999999991" y="2444" as="sourcePoint" />
+            <mxPoint x="771" y="2444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="764" y="2444" width="10" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-34" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="769" y="2464" width="10" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-137" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1823" y="1292" width="10" height="60" as="geometry" />
         </mxCell>
@@ -469,6 +484,12 @@
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-167" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1655" y="1952" width="10" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-35" value="B-6. 자동취소메시지 전송" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;exitX=1.2;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300.0000000000005" y="2544" as="sourcePoint" />
+            <mxPoint x="1450" y="2544" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
