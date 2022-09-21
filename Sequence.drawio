@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T06:01:24.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WyWLI2GCms6P1P4sBkto" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T06:02:08.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AJ0pWDIOznKdYqdpPv5o" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3122" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3731" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,7 +198,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-89" value="이체확정" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=default;" parent="CvV1-d97VzqDH3h47T7x-135" vertex="1">
-          <mxGeometry x="1077" width="124.00000000000006" height="2440" as="geometry" />
+          <mxGeometry x="1077" width="124" height="2740" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-90" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="CvV1-d97VzqDH3h47T7x-89" vertex="1">
           <mxGeometry x="56" y="960" width="10" height="790" as="geometry" />
@@ -389,18 +389,6 @@
         <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry x="1135" y="2250" width="10" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-15" value="" style="group" vertex="1" connectable="0" parent="CvV1-d97VzqDH3h47T7x-135">
-          <mxGeometry x="1715" y="2240" width="390" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-16" value="opt" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=default;" vertex="1" parent="2jdDPLGbn6Hf8-7H8EuZ-15">
-          <mxGeometry width="71.84210526315789" height="49.28571428571429" as="geometry" />
-        </mxCell>
-        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-17" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;" vertex="1" parent="2jdDPLGbn6Hf8-7H8EuZ-15">
-          <mxGeometry width="390.00000000000006" height="230.00000000000003" as="geometry" />
-        </mxCell>
-        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-18" value="[발송 24시간 후]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="2jdDPLGbn6Hf8-7H8EuZ-15">
-          <mxGeometry y="46.73015873015856" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-19" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="CvV1-d97VzqDH3h47T7x-135">
           <mxGeometry x="1482" y="2314" width="10" height="26" as="geometry" />
         </mxCell>
@@ -463,6 +451,18 @@
             <mxPoint x="789" y="2500.0000000000005" as="targetPoint" />
             <mxPoint x="958.0999999999999" y="2500.6099999999997" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-15" value="" style="group" vertex="1" connectable="0" parent="CvV1-d97VzqDH3h47T7x-135">
+          <mxGeometry x="730" y="2230" width="850" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-16" value="opt" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=default;" vertex="1" parent="2jdDPLGbn6Hf8-7H8EuZ-15">
+          <mxGeometry width="156.57894736842104" height="75.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-17" value="" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;" vertex="1" parent="2jdDPLGbn6Hf8-7H8EuZ-15">
+          <mxGeometry width="850.0000000000001" height="350.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="2jdDPLGbn6Hf8-7H8EuZ-18" value="[발송 24시간 후]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="2jdDPLGbn6Hf8-7H8EuZ-15">
+          <mxGeometry y="71.11111111111084" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CvV1-d97VzqDH3h47T7x-137" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1823" y="1292" width="10" height="60" as="geometry" />
